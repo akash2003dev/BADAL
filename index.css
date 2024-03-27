@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+}
+
+nav .left {
+    width: 30%;
+    height: 100%;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+nav .left img{
+    width: 7vw;
+    height: 5vw;
+    margin-left: 2vw;
+}
+
+nav .left .box {
+    width: 2vw;
+    height: 2vw;
+    background-color:#A260F8;
+    margin-left: 2vw;
+}
+
+nav .right {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    gap: 8vw;
+    align-items: center;
+}
+
+nav .right li {
+    list-style: none;
+    font-weight: 700;
+    font-size: 1.2vw;
+    color: white;
+}
+
+nav .right li a {
+    color: white;
+    text-decoration: none;
+}
+nav .right li a:hover{
+    border-bottom: 2px solid #A260F8;
+}
+nav .right button {
+    width: 8vw;
+    height: 3vw;
+    font-weight: 600;
+}
+nav .right button:hover{
+    background-color: #A260F8;
+    color: white;
+}
+nav .right i {
+    font-size: 3vw;
+    color: white;
+
+}
+nav .right i:hover{
+    color: #A260F8;
+}
+
+.content {
+    background-color: #181818;
+    width: 100%;
+    height: auto;
+    color: white;
+    display: flex;
+}
+
+.content .left-content h1 {
+    color: white;
+    font-size: 9vw;
+    margin-left: 2vw;
+}
+.fix{
+    width: 4vw;
+    height: 18vw;
+    
+    margin-left: 2vw;
+    margin-top: 1vw;
+}
+.content .left-content h1 span {
+
+
+    color: #A260F8;
+}
+
+.content .left-content h2 {
+    rotate: -90deg;
+  
+    color: white;
+    margin-top: 12vw;
+    
+    font-size: 2.3vw;
+
+
+}
+.content .left-content{
+    width: 30%;
+    
+   
+    
+}
+.content .right-content{
+    width: 70%;
+    height:100%;
+    
+    display: flex; 
+    
+}
+.content .left-content .box{
+    width: 1vw;
+    height: 1vw;
+    background-color: white;
+    
+}
+.beg-sec{
+    width:13vw;
+    display: flex;
+    margin-left: 16vw;
+    margin-top: -11vw;
+    gap: 1vw;
+    line-height: 1.5vw;
+}
+
+
+.right-content .right-c h3{
+    width:30vw;
+    font-size: 1.5vw;
+    line-height: 2vw;
+    font-weight: 800;
+    margin-bottom: 2vw;
+    
+    
+}
+.right-content .right-c p{
+    width:29vw;
+    line-height: 2vw;
+}
+.start{
+    background-color: #A260F8;
+    color: white;
+    padding: 0.5vw 1vw;
+    font-weight: 700;
+    border: none;
+}
+.read{
+    background-color: #181818;
+    color: white;
+    padding: 0.5vw 1vw;
+    font-weight: 700;
+    border: none;
+    margin-top: 2vw;
+    margin-right: 1vw;
+}
+.read:hover{
+    background-color: #A260F8;
+}
+.box-text{
+    width: 8vw;
+    height: 5vw;
+    border: 1px solid white;
+    text-align: center;
+    padding: 0.5vw 1vw 0vw 1vw;
+    margin-top: 4vw;
+    display: block;
+    margin-left: auto;
+    font-size: 1vw;
+    margin-bottom: 9vw;
+    border-right: none;
+}
+.right-c{
+    width: 100%;
+}
+.right-content .left-c{
+    margin-left: 4vw;
+}
+.mid-line{
+    width: 100%;
+  
+    height: 150px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 0 2px white;
+}
+.bx{
+    width: 20%;
+    height: 6vw;
+    
+    display: flex;
+ align-items: center;
+
+}
+.bx span{
+    color: #A260F8;
+    font-size: 2vw;
+    font-weight: bolder;
+}
+.bx h2{
+    color: white;
+    width: 3vw;
+    margin-left: 2vw;
+}
+.no h2{
+    font-size: 3vw;
+    margin-right: 2vw;
+}
+.char h2{
+    font-size: 1.2vw;
+}
+
+.content2{
+    display: flex;
+    justify-content: space-between;
+    background-color: #181818;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+ .content2 .discover{
+    
+    width: 190px;
+    height: 30px;
+    font-size:1vw;
+    transform: rotate(-90deg);
+    margin-top: 11vw;
+    display: flex;
+    color: white;
+   
+}
+.content2 .rdiscover{
+    
+    width: 190px;
+    height: 30px;
+    font-size:1vw;
+    transform: rotate(90deg);
+    margin-top: 11vw;
+    display: flex;
+    color: white;
+   
+
+}
+.wbx{
+    width: 1vw;
+    height: 1vw;
+    background-color: white;
+    margin-right: 1vw;
+}
+.accept{
+    width: 400px;
+    height: 120px;
+    border:  1px solid white;
+    margin-top: 10vw;
+    padding:62px 4vw;
+    border-radius: 70%;
+    padding-top: 2vw;
+    transform: rotate(24deg);
+}
+.accept h1{
+    color: white;
+    font-size: 4vw;
+    display: block;
+    text-align: center;
+    transform: rotate(-24deg);   
+}
+.mid-line2{
+    color:white;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    border: 1px solid white;
+}
+.explore{
+    color: white;
+}
